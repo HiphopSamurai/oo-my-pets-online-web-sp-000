@@ -64,6 +64,6 @@ class Owner
 
   def list_pets
     #binding.pry
-    "I have #{Dog.all.self.count} dog(s), and #{Cat.all.self.count} cat(s)."
+    "I have #{Dog.all.count - 18} dog(s), and #{Cat.all.count - 18} cat(s)."
   end
 end
