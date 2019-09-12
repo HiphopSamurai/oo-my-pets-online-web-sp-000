@@ -53,7 +53,7 @@ class Owner
   end
 
   def feed_cats
-    ####
+    Cat.all.each {|m| m.mood = "happy"}
   end
 
   def sell_pets
